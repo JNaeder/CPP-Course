@@ -1,18 +1,12 @@
 #include <iostream>
+#include <climits>
 
 using namespace std;
 
 int main()
 {
+	int age{ 32 };
 
-	cout << "Enter the width of the room: ";
-	int room_width{ 0 };  
-	cin >> room_width;
-	cout << "Enter the length of the room: ";
-	int room_length{ 0 };
-	cin >> room_length;
-
-	cout << "The area of the room is " << room_width * room_width << " square feet.";
-
+	cout << "Size of my age: " << sizeof age << endl;
 	return 0;
 }
